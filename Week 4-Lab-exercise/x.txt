@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main{
+int a, b,c;
+if(a>b and a>c){
+printf("greater"');
+}
+elif (b>c){
+printf("second greatest");
+}
+
+else{
+printf("less");
+}
+printf("my name is AKHIL");
+}
+//compile design week 4
