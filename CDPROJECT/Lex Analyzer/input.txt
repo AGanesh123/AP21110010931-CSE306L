@@ -1,0 +1,17 @@
+create table student( id integer not null primary key,
+			 name varchar(10) not null,
+			 hostel varchar(10)
+			);
+
+select name
+from student;
+
+
+select name 
+from student
+where data1 = (select id
+		    from student 
+		    where hostel = umiam	
+		   );
+
+
